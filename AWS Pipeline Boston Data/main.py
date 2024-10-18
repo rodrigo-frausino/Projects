@@ -53,6 +53,8 @@ def transform_data(database:str, table_source:str, table_target) -> None:
 
     result_df = spark.sql(query)
 
+    result_df = result_df.coalesce(1)
+
     result_df.write.mode("overwrite").format("parquet").saveAsTable(f"`{database}`.`{table_target}`")
 
     spark.stop()
