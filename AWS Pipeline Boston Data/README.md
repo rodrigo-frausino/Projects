@@ -1,3 +1,3 @@
-- <s> Uploading Notebook until section 5, still unfinished. <s>
-- <s> Finished section 5. <s>
+- <s> Uploading Notebook until section 5, still unfinished. </s>
+- <s> Finished section 5. </s>
 - Started section 6
